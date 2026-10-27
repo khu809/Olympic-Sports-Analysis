@@ -59,13 +59,13 @@ olympic-performance-dashboard/
 1. Clone this repository:
 
    ```bash
-   git clone https://github.com/aeraa1725-bot/olympic-performance-dashboard.git
+   git clone https://github.com/khu809/Olympic-Sports-Analysis.git
    ```
 
 2. Navigate to the project directory:
 
    ```bash
-   cd olympic-performance-dashboard
+   cd Olympic-Sports-Analysis
    ```
 
 3. Install dependencies:
