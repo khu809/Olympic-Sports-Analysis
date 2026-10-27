@@ -1,0 +1,66 @@
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Global Olympic Sports Performance Analysis</title>
+    <link rel="stylesheet"
+          href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <header class="hero">
+        <p class="eyebrow">SPORTS • DATA • PERFORMANCE</p>
+        <h1>Global Olympic Sports<br>Performance Analysis</h1>
+        <p>
+            Exploring Olympic medal achievements, country performance,
+            athlete participation and regional trends through data.
+        </p>
+        <a href="#dashboard" class="button">Explore Dashboards ↓</a>
+        
+<a href="/story" class="button">Explore the Story →</a>
+
+    </header>
+
+    <main>
+        <section class="intro">
+            <h2>Olympic Performance Dashboard</h2>
+            <p>
+                Explore the interactive Tableau visualizations below.
+                Use each dashboard to investigate global sports performance.
+            </p>
+        </section>
+
+        <section id="dashboard" class="dashboard-section">
+            <h2>Dashboard 1 — Global Performance</h2>
+            <div class="tableau-container">
+                <iframe
+                    src="https://public.tableau.com/views/dashboard1_17931176482560/Dashboard1?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link"
+                    title="Global Olympic Sports Performance Dashboard"
+                    loading="lazy"
+                    allowfullscreen>
+                </iframe>
+            </div>
+        </section>
+
+        <section class="dashboard-section">
+            <h2>Dashboard 2 — Regional Analysis</h2>
+            
+            <div class="tableau-container">
+                
+<iframe
+    src="https://public.tableau.com/views/dashboard2_17931177093500/Dashboard2?:language=en-US&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link"
+    title="Olympic Sports Performance Dashboard 2"
+    loading="lazy"
+    allowfullscreen>
+</iframe>
+
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>Global Olympic Sports Performance Analysis</p>
+        <p>Interactive visualizations powered by Tableau Public.</p>
+    </footer>
+</body>
+</html>

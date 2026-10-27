@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Olympic Performance Story</title>
+    <link rel="stylesheet"
+          href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <header class="hero">
+        <p class="eyebrow">OLYMPIC DATA • INSIGHTS • STORIES</p>
+        <h1>Olympic Performance Story</h1>
+        <p>
+            Explore medal achievements, performance trends,
+            regional comparisons, and Summer versus Winter Olympics.
+        </p>
+        <a href="/" class="button">← Back to Dashboards</a>
+    </header>
+
+    <main>
+        <section class="intro">
+            <h2>Explore the Story</h2>
+            <p>
+                Navigate through the four interactive story points
+                to explore different aspects of Olympic performance.
+            </p>
+        </section>
+
+        <section class="dashboard-section">
+            <div class="tableau-container">
+                <iframe
+                    src="https://public.tableau.com/views/Book1s_17931173663370/Story1?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link"
+                    title="Global Olympic Sports Performance Tableau Story"
+                    loading="lazy"
+                    allowfullscreen>
+                </iframe>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>Global Olympic Sports Performance Analysis</p>
+        <p>Interactive Story powered by Tableau Public.</p>
+    </footer>
+</body>
+</html>
