@@ -35,11 +35,11 @@ The goal is to make sports performance data easier to explore and compare across
 
 **Dashboard 1 — Global Olympic Sports Performance Analysis**
 
-[View Dashboard 1](https://public.tableau.com/views/Olympic_Sport_Performance_Extract2/Dashboard1)
+[View Dashboard 1](https://public.tableau.com/views/dashboard1_17931176482560/Dashboard1?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
 
 **Dashboard 2 — Olympic Sports Performance**
 
-[View Dashboard 2](https://public.tableau.com/views/Olympic_Sport_Performance_Extract3/Dashboard2)
+[View Dashboard 2](https://public.tableau.com/views/dashboard2_17931177093500/Dashboard2?:language=en-US&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
 
 ## 📁 Project Structure
 
@@ -88,4 +88,4 @@ olympic-performance-dashboard/
 
 ## 👩‍💻 Author
 
-Anushka Mali
+Khushi Gupta
