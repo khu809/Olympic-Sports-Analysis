@@ -84,7 +84,7 @@ olympic-performance-dashboard/
 
 ## 🌐 Live Demo
 
-   **Live Website:** coming soon.
+   **Live Website:** https://olympic-sports-analysis.onrender.com/
 
 ## 👩‍💻 Author
 
